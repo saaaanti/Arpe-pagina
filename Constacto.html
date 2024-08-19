@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get in touch</title>
+    <link rel="stylesheet" href="contacto.css" />
+    <link rel="icon" href="img/p.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <!-- menu desplegable -->
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Zenith.html">Zenith</a></li>
+          <li><a href="Nuestros Productos.html">Our Products</a></li>
+          <li><a href="acerca de.html"> About us</a></li>
+          <li><a href="Constacto.html">Contact with us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="nombre">Name:</label>
+          <input type="text" id="nombre" name="nombre" required />
+          <span class="error-message" id="error-nombre"></span>
+        </div>
+        <div class="form-group">
+          <label for="apellido">Surname:</label>
+          <input type="text" id="apellido" name="apellido" required />
+          <span class="error-message" id="error-apellido"></span>
+        </div>
+        <div class="form-group">
+          <label for="telefono">Phone:</label>
+          <input type="tel" id="telefono" name="telefono" required />
+          <span class="error-message" id="error-telefono"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" id="email" name="email" required />
+          <span class="error-message" id="error-email"></span>
+        </div>
+        <div class="form-group">
+          <span class="error-message" id="error-pais"></span>
+        </div>
+        <button type="submit" id="enviar">Send</button>
+      </form>
+      <div id="mensaje-enviado"></div>
+    </div>
+
+    <script>
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+          var nombre = document.getElementById("nombre").value;
+          var apellido = document.getElementById("apellido").value;
+          var telefono = document.getElementById("telefono").value;
+          var email = document.getElementById("email").value;
+          /*var pais = document.getElementById('pais').value;*/
+          var errorMessages = document.getElementsByClassName("error-message");
+
+          for (var i = 0; i < errorMessages.length; i++) {
+            errorMessages[i].innerText = ""; // Reinicia los mensajes de error
+          }
+
+          if (!nombre || !apellido || !telefono || !email || !pais) {
+            if (!nombre)
+              document.getElementById("error-nombre").innerText = "Required";
+            if (!apellido)
+              document.getElementById("error-apellido").innerText = "Required";
+            if (!telefono)
+              document.getElementById("error-telefono").innerText = "Required";
+            if (!email)
+              document.getElementById("error-email").innerText = "Required";
+            /*if (!pais) document.getElementById('error-pais').innerText = 'Required';*/
+          } else {
+            // Aquí puedes enviar el formulario o mostrar un mensaje de éxito
+            document.getElementById("mensaje-enviado").innerText =
+              "Request send.";
+          }
+        });
+    </script>
+  </body>
+</html>

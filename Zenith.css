@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poiret+One&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=League+Spartan:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poiret+One&family=Roboto:wght@300&family=Sen:wght@400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Mate+SC&family=Noto+Sans+Mono:wght@100..900&family=Wix+Madefor+Display:wght@400..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Public sans-serif;
+    background-color: #29354160;
+    font-size: 18px;
+}
+
+header {
+background-color: #575757;
+color: #fff;
+text-align: center;
+justify-content: center;
+}
+
+
+
+.tarifas h2 {
+  padding-top: 110px;
+  font-family: Wix Madefor Display;
+  letter-spacing: 8px;
+  font-weight: bold;
+  padding-bottom: 50px;
+  margin: 0;
+  color: #000000e0;
+}
+
+.h2{
+  margin-left: 800px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+
+
+
+
+
+.Hotels p{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-family: Wix Madefor Display;
+
+}
+
+.Hotels{
+  padding: 0px;
+  padding-top: 5px;
+  box-sizing: border-box;
+}
+/*Menus desplegables*/
+.dropdown-content {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  list-style: none;
+  display: none;
+  justify-content: center;
+  text-align: center;
+   
+}
+
+
+.dropdown:hover .dropdown-content {
+  display:block ;
+  position:relative;
+  top: 1rem;
+  text-align: center;
+}
+
+
+/*Opciones menu principal*/
+
+.menu a{
+  font-family: nunito;
+  
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+
+
+.menu {
+  width: 94%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #243241d3;
+  padding-top: 40px;
+  display: 	flex;
+  justify-content: right;
+  padding-right: 80px;
+  gap: 5rem;
+  height: 98  px;
+  margin: 0;
+}
+
+
+.menu li {
+  margin-bottom: 35px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18.5px;
+
+}
+
+
+.hero {
+  height: 100vh;
+  background-image: url(img/imagen_fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+  /* Animacion:
+  animation: entrada 1s ease forwards; 
+  opacity: 0;  */
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 75px;
+  font-family: Poiret One;
+  letter-spacing: 16px;
+
+}
+
+
+.description {
+  background-color: rgb(41, 44, 71);
+  padding-bottom: 70px;
+  text-align: center; /* Centra el texto */
+  margin-bottom: 40px;
+  margin-top: 148px;
+}
+
+.description h2 {
+  margin-top: 100px; /* Ajusta el margen superior */
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-top: 70px;
+  color: rgb(200, 198, 220);
+}
+
+.description p {
+  margin-bottom: 10px; /* Ajusta el margen inferior */
+  width: 80%; /* Define un ancho del 80% del contenedor padre */
+  margin: 0 auto; /* Centra el elemento horizontalmente */
+  font-family: nunito;
+  padding-top: 7px;
+  text-align: justify;
+  color: rgb(200, 198, 198);
+  text-align: center;
+}
+
+/* .description{
+  justify-content: center;
+  
+
+
+
+
+}
+.description h2{
+  text-align: center;
+  margin-top: 100px;
+} */
+
+.clients {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente los logos */
+  flex-wrap: wrap; /* Permite que los logos se envuelvan */
+  margin-bottom: 20px;
+  margin-top: 55px;
+}
+
+.client-logo {
+  max-width:10%; /* Ajusta el ancho máximo de los logos */
+  margin: 40px; /* Espacio entre los logos */
+}
+
+/* .testimonials {
+display: flex;
+flex-wrap: wrap;
+}
+
+.testimonials p{
+  width: 80%;
+}
+
+.testimonials img{
+  width: 100px;
+  height: auto;
+}
+
+.testimonial {
+margin: 20px;
+padding: 20px;
+border: 1px solid #ccc;
+background-color: #464d75;
+}
+   */
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra horizontalmente los testimonios */
+}
+
+.testimonial {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: rgb(41, 44, 71);
+    color: rgb(200, 198, 198);
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.testimonial p{
+  font-family: nunito;
+}
+
+.testimonial img {
+    width: 80px;
+    height: auto;
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+    border-radius: 15px;
+}
+
+.testimonial-text p {
+    width: 80%;
+}
+
+
+
+
+.plans {
+  display: flex;
+  margin-top: 0px;
+  padding: 20px;  
+}
+
+.column {
+  flex: 6; /* Cada columna ocupa un tercio del ancho disponible */
+  margin-right: 190px; /* Espacio entre columnas */
+}
+
+.column:last-child {
+  margin-right: 0; /* Quita el margen derecho del último */
+}
+
+
+.plan1 {
+  background-color:  rgba(42, 45, 67, 0.818);
+  padding: 20px;
+  border-radius: 20px;
+  height: 470px;
+  padding-left: 30px;
+  padding-right: 50px;
+  
+}
+
+.plan2 {
+  background-color: rgb(42, 45, 67);
+  padding: 20px;
+  border-radius: 20px;
+  height: 470px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.plan3 {
+  background-color: rgb(33, 33, 36);
+  padding: 20px;
+  border-radius: 20px;
+  height: 470px;
+  padding-left: 30px;
+  padding-right: 50px;
+}
+
+.plan1 p {
+  font-family: nunito;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: rgb(200, 198, 198);
+  text-align: justify;
+}
+
+
+.plan2 p {
+  font-family: nunito;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: rgb(200, 198, 198);
+  text-align: justify;
+}
+
+.plan3 p {
+  font-family: nunito;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: rgb(200, 198, 198);
+  text-align: justify;
+}
+
+
+.plan1 h3 {
+  margin-top: 24px;
+  font-size: 25px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-left: 66px;
+  color: rgb(200, 198, 198);
+}
+
+.plan2 h3 {
+  margin-top: 15px;
+  font-size: 25px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-left: 84px;
+  color: rgb(200, 198, 198);
+}
+
+.plan3 h3 {
+  margin-top: 15px;
+  font-size: 25px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-left: 78px;
+  color: rgb(200, 198, 198);
+}
+
+.plan1 h4{
+  color:#ffffff;
+  font-weight: bold;
+  font-size:20px;
+  font-family: nunito;
+  margin-top: 55px;
+
+}
+
+
+.plan2 h4{
+  color:#ffffff;
+  font-size:20px;
+  font-weight: bold;
+  font-family: nunito;
+  margin-top: 60px;
+
+}
+
+.plan3 h4{
+  color:#ffffff;
+  font-size:20px;
+  font-family: nunito;
+  margin-top: 60px;
+
+}
+
+.plan1 ul {
+  padding: 0;
+}
+
+.plan2 ul {
+  padding: 0;
+}
+
+.plan3 ul {
+  padding: 0;
+}
+
+.plan1 li {
+  list-style: none;
+}
+
+.plan2 li {
+  list-style: none;
+}
+
+.plan3 li {
+  list-style: none;
+}
+
+.li p{
+  list-style: none;
+  font-family: nunito;
+}
+
+.reseñas h2 {
+  font-family: Wix Madefor Display;
+  letter-spacing: 8px;
+  padding-top: 130px;
+  padding-bottom: 30px;
+  color: #000000e0;
+}
+
+
+
+/* Footer */
+footer {
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-family: nunito;
+  padding-left: 5px;
+  font-size: 16px;
+  margin-top: 65px;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container p{
+  margin-top: 20px;
+  font-family: nunito;
+  padding-right: 15px;
+}
+
+.contenedor-columnas {
+  display: flex;
+}
+
+
+.contenedor-columnas {
+  display: flex;
+}
+
+.contenedor-columnas a{
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+}
+
+.column {
+  flex: 6;
+  margin-right: 190px;
+
+}
+
+.column a{
+  text-wrap: nowrap;
+}
+
+
+
+.column h3 {
+  color: #fff;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 250px;
+}
+
+.column ul li a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.redes-sociales {
+  margin-top: 50px;
+}
+
+.redes-sociales a {
+  color: #fff;
+  padding-right: 20px;
+  
+}
+
+.redes-sociales a:last-child {
+  margin-right: 0;
+}

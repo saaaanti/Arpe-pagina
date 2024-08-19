@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poiret+One&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=League+Spartan:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poiret+One&family=Roboto:wght@300&family=Sen:wght@400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Mate+SC&family=Noto+Sans+Mono:wght@100..900&family=Wix+Madefor+Display:wght@400..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: nunito;
+    background-color: #29354160;
+    margin: 0;
+    padding: 0;
+  }
+
+  menu a{
+    font-family: nunito;
+    
+  }
+  
+  ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  
+  
+  .menu {
+    width: 94%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #243241d3;
+    padding-top: 40px;
+    display: 	flex;
+    justify-content: right;
+    padding-right: 80px;
+    gap: 5rem;
+    height: 98  px;
+    margin: 0;
+  }
+  
+  
+  .menu li {
+    margin-bottom: 35px;
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18.5px;
+  
+  }
+  
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #161e26e4;
+    margin-top: 130px;
+    color: rgb(200, 198, 198);
+  }
+
+  .container h2 {
+    font-family: Wix Madefor Display;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    font-family: nunito;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select {
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 17px;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #495f79;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: nunito;
+  }
+  
+  button:hover {
+    background-color: #61869f;
+    border: none;
+    transition: background-color 0.5s ease;
+  }
+
+
+
+

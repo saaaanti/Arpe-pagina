@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poiret+One&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=League+Spartan:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poiret+One&family=Roboto:wght@300&family=Sen:wght@400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Mate+SC&family=Noto+Sans+Mono:wght@100..900&family=Wix+Madefor+Display:wght@400..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body {
+    font-family: nunito;
+    background-color: #29354160;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    
+}
+
+header {
+  background-color: #575757;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+}
+  
+
+
+.ini {
+  background-color: rgb(41, 44, 71);
+  padding-bottom: 70px;
+  text-align: center; /* Centra el texto */
+  margin-bottom: 40px;
+  margin-top: 148px;
+}
+
+.ini p {
+  margin-bottom: 10px; /* Ajusta el margen inferior */
+  width: 80%; /* Define un ancho del 80% del contenedor padre */
+  margin: 0 auto; /* Centra el elemento horizontalmente */
+  font-family: nunito;
+  padding-top: 7px;
+  text-align: justify;
+  color: rgb(200, 198, 198);
+  text-align: center;
+}
+
+.ini h1 {
+  margin-top: 100px; /* Ajusta el margen superior */
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  letter-spacing: 2px;
+  padding-top: 70px;
+  color: rgb(200, 198, 220);
+  font-size: 28px;
+  
+}
+
+.filo h2 {
+  padding-top: 30px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin: 0;
+  color: #000000e0;
+  padding-left: 640px;
+}
+
+.comp h2 {
+
+  padding-top: 60px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  padding-bottom: 1px;
+  margin: 0;
+  color: #000000e0;
+  padding-left: 645px;
+}
+
+.prem h2 {
+  padding-top: 60px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  padding-bottom: 23px;
+  margin: 0;
+  color: #000000e0;
+  padding-left: 640px;
+}
+
+
+/*Menus desplegables*/
+.dropdown-content {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  list-style: none;
+  display: none;
+  justify-content: center;
+  text-align: center;
+   
+}
+
+
+.dropdown:hover .dropdown-content {
+  display:block ;
+  position:relative;
+  top: 1rem;
+  text-align: center;
+}
+
+
+/*Opciones menu principal*/
+
+.menu a{
+  font-family: nunito;  
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+
+
+.menu {
+  width: 94%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #243241d3;
+  padding-top: 40px;
+  display: 	flex;
+  justify-content: right;
+  padding-right: 80px;
+  gap: 5rem;
+  height: 98px;
+  margin-top: 0;
+  height: 59px;
+}
+
+
+.menu li {
+  margin-bottom: 35px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18.5px;
+
+}
+
+
+.product {
+  padding: 200px;
+}
+
+.product h2 {
+  color: #000000;
+}
+
+.product p {
+  color: #000000;
+  margin-right: 50px
+}
+
+.product titulo{
+  align-items: center;
+}
+
+.product {
+  display: flex;
+  margin: 10px;
+  padding: 40px; /* Reducir el espaciado */
+  border-radius: 15px;
+  align-items: center; /* Centrar verticalmente */
+}
+
+.product3 {
+  display: flex;
+  margin: 10px;
+  padding: 40px; /* Reducir el espaciado */
+  border-radius: 15px;
+  align-items: center; /* Centrar verticalmente */
+}
+
+.product4 {
+  display: flex;
+  padding: 40px; /* Reducir el espaciado */
+  border-radius: 15px;
+  align-items: center; /* Centrar verticalmente */
+}
+
+
+.product-title {
+  width: 70px;
+  color: #000;
+}
+
+.product3 img {
+  border-radius: 15px;
+  margin-right: 30px; /* Añadir espacio entre el texto y el logotipo */
+  width: 200px; /* Ajustar el tamaño del logotipo */
+}
+
+.product4 img {
+  border-radius: 15px;
+  margin-right: 30px; /* Añadir espacio entre el texto y el logotipo */
+  width: 200px; /* Ajustar el tamaño del logotipo */
+}
+
+.product img {
+  border-radius: 15px;
+  margin-right: 30px; /* Añadir espacio entre el texto y el logotipo */
+  width: 200px; /* Ajustar el tamaño del logotipo */
+}
+
+.text-p  p{
+  flex: 1; /* Alinear el texto a la izquierda */
+  color: #000;
+  margin-bottom: 10px; /* Ajusta el margen inferior */
+  width: 80%; /* Define un ancho del 80% del contenedor padre */
+  margin: 0 auto; /* Centra el elemento horizontalmente */
+  font-family: nunito;
+  padding-top: 7px;
+  text-align: justify;
+}
+
+.product h3 {
+  color: rgb(44, 42, 42);;
+  margin-top: 0; /* Eliminar el margen superior */
+  font-family:  Wix Madefor Display;
+  font-size: 23px;
+  padding-left: 27px;
+  padding-top: 21.5px;
+}
+
+
+.product3 h3 {
+  color: rgb(44, 42, 42);;
+  margin-top: 22px; /* Eliminar el margen superior */
+  font-family:  Wix Madefor Display;
+  font-size: 23px;
+  padding-left: 12px;
+}
+
+.product4 h3 {
+  color: rgb(44, 42, 42);;
+  margin-top: 0; /* Eliminar el margen superior */
+  font-family:  Wix Madefor Display;
+  font-size: 22px;
+  padding-left: 7.8px;
+  padding-top: 21.5px;
+}
+
+
+
+
+
+.product2 {
+  padding: 20px;
+}
+
+.product2 h2 {
+  color: #000000;
+}
+
+.product2 p {
+  color: #000000;
+  margin-right: 50px;
+  margin-left: 239px;
+  
+}
+
+.product2 titulo{
+  align-items: center;
+}
+
+.intro p {
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+
+
+/* Footer */
+footer {
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-family: nunito;
+  padding-left: 5px;
+  font-size: 16px;
+  margin-top: 65px;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container p{
+  margin-top: 20px;
+  font-family: nunito;
+  padding-right: 15px;
+}
+
+.contenedor-columnas {
+  display: flex;
+}
+
+
+.contenedor-columnas {
+  display: flex;
+}
+
+.contenedor-columnas a{
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+}
+
+.column {
+  flex: 6;
+  margin-right: 190px;
+
+}
+
+.column a{
+  text-wrap: nowrap;
+}
+
+
+
+.column h3 {
+  color: #fff;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 250px;
+}
+
+.column ul li a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.redes-sociales {
+  margin-top: 50px;
+}
+
+.redes-sociales a {
+  color: #fff;
+  padding-right: 20px;
+  
+}
+
+.redes-sociales a:last-child {
+  margin-right: 0;
+}

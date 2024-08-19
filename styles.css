@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Inter:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poiret+One&family=Roboto:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=League+Spartan:wght@100..900&family=Montserrat:wght@300&family=Mooli&family=Nanum+Gothic&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Poiret+One&family=Roboto:wght@300&family=Sen:wght@400..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Mate+SC&family=Noto+Sans+Mono:wght@100..900&family=Wix+Madefor+Display:wght@400..800&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: Public sans-serif;
+  background-color: #29354160;
+  font-size: 18px;
+}
+
+
+/*Menus desplegables*/
+.dropdown-content {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  list-style: none;
+  display: none;
+  justify-content: center;
+  text-align: center;
+   
+}
+
+
+.dropdown:hover .dropdown-content {
+  display:block ;
+  position:relative;
+  top: 1rem;
+  text-align: center;
+}
+
+
+/*Opciones menu principal*/
+
+.menu a{
+  font-family: nunito;
+  
+}
+
+ul {
+  list-style: none;
+  text-align: center;
+}
+
+
+
+.menu {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #243241d3;
+  padding-top: 40px;
+  display: 	flex;
+  justify-content: right;
+  padding-right: 50px;
+  gap: 5rem;
+  height: 98  px;
+}
+
+
+.menu li {
+  margin-bottom: 35px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18.5px;
+
+}
+
+/* animacion:
+@keyframes entrada {
+  0% {
+    opacity: 0; 
+    transform: translateY(-50px); 
+  }
+  100% {
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+} */
+
+/*animation: entrada 1s ease forwards; 
+  opacity: 0;*/
+
+
+/* Estilos del inicio */
+.hero {
+  height: 100vh;
+  background-image: url(img/imagen_fondo.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+  /* Animacion:
+  animation: entrada 1s ease forwards; 
+  opacity: 0;  */
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 75px;
+  font-family: Poiret One;
+  letter-spacing: 16px;
+
+}
+
+.hero-content p {
+  font-size: 19px;
+  margin-bottom: 30px;
+  font-family: nunito;
+  padding-top: 3px;
+  padding-bottom: 35px;
+  
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  font-size: 17px;
+  cursor: pointer;
+  background-color: #243241;
+  color: rgb(255, 250, 244);
+  border-radius: 7px;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+  font-family: nunito;
+  width: 234px;
+}
+
+
+.buttons button:hover {
+  background-color: #466376;
+  border: none;
+  transition: background-color 0.5s ease;
+}
+
+
+
+/* Estilos para las secciones */
+.section {
+  padding: 50px 20px;
+  background-color: #333333;
+}
+
+.section h2 {          
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+
+
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -100px;
+}
+
+.content21 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 250px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+  
+}
+
+.content22 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 250px;
+  margin-bottom: 20px;
+  
+  
+}
+
+.content23 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 250px;
+  margin-bottom: 20px;
+}
+
+.content24 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 250px;
+  margin-bottom: 20px;
+}
+
+.content25 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 0px;
+  margin-left: 250px;
+  margin-bottom: 90px;
+}
+
+
+.content21 img {
+  width: auto;
+  max-width: 40%; /* Ajusta el tamaño máximo de la imagen */
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  border-radius: 50px;
+  
+}
+
+.content22 img {
+  width: auto;
+  max-width: 40%; /* Ajusta el tamaño máximo de la imagen */
+  height: auto;
+  margin-bottom: 40px;
+  border-radius: 50px;
+  /*width: 200px; 
+  height: 200px; 
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+*/
+}
+
+.content23 img {
+  width: auto;
+  max-width: 40%; /* Ajusta el tamaño máximo de la imagen */
+  height: auto;
+  margin-bottom: 40px;
+  border-radius: 50px;
+
+}
+
+.content24 img {
+  width: auto;
+  max-width: 40%; /* Ajusta el tamaño máximo de la imagen */
+  height: auto;
+  margin-bottom: 40px;
+  border-radius: 50px;
+
+}
+
+.content25 img {
+  width: auto;
+  max-width: 40%; /* Ajusta el tamaño máximo de la imagen */
+  height: auto;
+  margin-bottom: 40px;
+  border-radius: 50px;
+
+}
+
+
+.content21 p {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  font-family: nunito;
+  margin-left: 20px;
+  margin-right: 20px ;
+  text-align: justify;
+  max-width: 550px;
+  padding-left: 80px;
+  
+
+}
+
+.content22 p {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  font-family: nunito;
+  margin-left: 20px;
+  margin-right: 20px ;
+  text-align: justify;
+  max-width: 550px;
+  padding-right: 80px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.content23 p {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  font-family: nunito;
+  margin-left: 20px;
+  margin-right: 20px ;
+  text-align: justify;
+  max-width: 550px;
+  padding-left: 80px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.content24 p {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  font-family: nunito;
+  margin-left: 20px;
+  margin-right: 20px ;
+  text-align: justify;
+  max-width: 550px;
+  padding-right: 80px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.content25 p {
+  margin-top: 0px;
+  margin-bottom: 100px;
+  font-family: nunito;
+  margin-left: 20px;
+  margin-right: 20px ;
+  text-align: justify;
+  max-width: 550px;
+  padding-left: 80px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.content21 h2 {
+  margin-top: 80px;
+  padding-left: 85px;
+  padding-bottom: 20px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+
+.content22 h2 {
+  margin-top: 80px;
+  padding-right: 85px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+
+
+.content23 h2 {
+  margin-top: 80px;
+  padding-left: 82px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+
+.content24 h2 {
+  margin-top: 80px;
+  padding-right: 96px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+
+.content25 h2 {
+  margin-top: 80px;
+  padding-left: 85px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-family: Wix Madefor Display;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+
+
+/* Footer */
+footer {
+  background-color: #333333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-family: nunito;
+  padding-left: 5px;
+  font-size: 16px;
+  margin-top: 65px;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container p{
+  margin-top: 20px;
+  font-family: nunito;
+  padding-right: 15px;
+}
+
+.contenedor-columnas {
+  display: flex;
+}
+
+
+.contenedor-columnas {
+  display: flex;
+}
+
+.contenedor-columnas a{
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+}
+
+.column {
+  flex: 6;
+  margin-right: 190px;
+
+}
+
+.column a{
+  text-wrap: nowrap;
+}
+
+
+
+.column h3 {
+  color: #fff;
+}
+
+.column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 250px;
+}
+
+.column ul li a {
+  color: #fff;
+  text-decoration: none;
+
+}
+
+.redes-sociales {
+  margin-top: 50px;
+}
+
+.redes-sociales a {
+  color: #fff;
+  padding-right: 20px;
+  
+}
+
+.redes-sociales a:last-child {
+  margin-right: 0;
+}
